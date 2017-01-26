@@ -1,0 +1,433 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="../../style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="../../print.css" type="text/css" media="print">
+<meta content="ToolTip,ds.gui.ToolTip,autoHideTime,colors,delayTime,fadeTime,followMouse,hideOnMouseMove,resetStyles,roundingBox,tooltipClip,tooltipLabel,tooltipWidth,transparency,addToolTip,hide,show" name="keywords">
+<title>ds.gui.ToolTip</title>
+</head>
+<body>
+<script type="text/javascript" language="javascript" src="../../asdoc.js"></script><script type="text/javascript" language="javascript" src="../../cookies.js"></script><script type="text/javascript" language="javascript">
+<!--
+				asdocTitle = 'ToolTip - API Documentation';
+				var baseRef = '../../';
+				window.onload = configPage;
+			--></script>
+<table style="display:none" id="titleTable" cellspacing="0" cellpadding="0" class="titleTable">
+<tr>
+<td align="left" class="titleTableTitle">API Documentation</td><td align="right" class="titleTableTopNav"><a onclick="loadClassListFrame('../../all-classes.html')" href="../../package-summary.html">All&nbsp;Packages</a>&nbsp;|&nbsp;<a onclick="loadClassListFrame('../../all-classes.html')" href="../../class-summary.html">All&nbsp;Classes</a>&nbsp;|&nbsp;<a onclick="loadClassListFrame('../../index-list.html')" href="../../all-index-A.html">Index</a>&nbsp;|&nbsp;<a href="../../index.html?ds/gui/ToolTip.html&amp;ds/gui/class-list.html" id="framesLink1">Frames</a><a onclick="parent.location=document.location" href="" style="display:none" id="noFramesLink1">No&nbsp;Frames</a></td><td rowspan="3" align="right" class="titleTableLogo"><img alt="Adobe Logo" title="Adobe Logo" class="logoImage" src="../../images/logo.jpg"></td>
+</tr>
+<tr class="titleTableRow2">
+<td align="left" id="subTitle" class="titleTableSubTitle">Class&nbsp;ToolTip</td><td align="right" id="subNav" class="titleTableSubNav"><a href="#propertySummary">Properties</a>&nbsp;| <a href="#methodSummary">Methods</a></td>
+</tr>
+<tr class="titleTableRow3">
+<td colspan="2">&nbsp;</td>
+</tr>
+</table>
+<script type="text/javascript" language="javascript">
+<!--
+if (!isEclipse() || window.name != ECLIPSE_FRAME_NAME) {titleBar_setSubTitle("Class ToolTip"); titleBar_setSubNav(false,true,false,false,false,false,true,false,false,false,false,false,false,false);}
+--></script>
+<div class="MainContent">
+<table cellspacing="0" cellpadding="0" class="classHeaderTable">
+<tr>
+<td class="classHeaderTableLabel">Package</td><td><a onclick="javascript:loadClassListFrame('class-list.html')" href="package-detail.html">ds.gui</a></td>
+</tr>
+<tr>
+<td class="classHeaderTableLabel">Class</td><td class="classSignature">public class ToolTip</td>
+</tr>
+<tr>
+<td class="classHeaderTableLabel">Inheritance</td><td class="inheritanceList">ToolTip <img class="inheritArrow" alt="Inheritance" title="Inheritance" src="../../images/inherit-arrow.gif"> flash.display.Sprite</td>
+</tr>
+</table>
+<p></p>
+  The ToolTip class defines static functions to generate a generic tooltip. 
+  The tooltip is always added to the stage itself, and is typically called
+  in the mouseover's event listener function for a displayobject. 
+   See changelog on http://detailed-simplicity.xs4all.nl/ds2/ 
+    <p></p>
+<br>
+<hr>
+</div>
+<a name="propertySummary"></a>
+<div class="summarySection">
+<div class="summaryTableTitle">Public Properties</div>
+<table id="summaryTableProperty" class="summaryTable " cellpadding="3" cellspacing="0">
+<tr>
+<th>&nbsp;</th><th colspan="2">Property</th><th class="summaryTableOwnerCol">Defined&nbsp;by</th>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#autoHideTime">autoHideTime</a> : int<div class="summaryTableDescription">[static]
+   Getter that returns the time in ms after the tooltip must hide.</div>
+</td><td class="summaryTableOwnerCol">ToolTip</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#colors">colors</a> : Array<div class="summaryTableDescription">[static]
+   Getter for the colors that the tooltip is being filled with.</div>
+</td><td class="summaryTableOwnerCol">ToolTip</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#delayTime">delayTime</a> : int<div class="summaryTableDescription">[static]
+   Returns the delay time that represents the delay time of the tooltip in ms.</div>
+</td><td class="summaryTableOwnerCol">ToolTip</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#fadeTime">fadeTime</a> : Number<div class="summaryTableDescription">[static]
+   Gets the fadeTime property, representing the time of the fade-in annimation.</div>
+</td><td class="summaryTableOwnerCol">ToolTip</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#followMouse">followMouse</a> : Boolean<div class="summaryTableDescription">[static]
+   Getter that tells us if the tooltip needs to follow the mouse.</div>
+</td><td class="summaryTableOwnerCol">ToolTip</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#hideOnMouseMove">hideOnMouseMove</a> : Boolean<div class="summaryTableDescription">[static]
+   Getter hideOnMouseMove.</div>
+</td><td class="summaryTableOwnerCol">ToolTip</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#resetStyles">resetStyles</a> : Boolean<div class="summaryTableDescription">[static]
+   Getter for the resetStyles.</div>
+</td><td class="summaryTableOwnerCol">ToolTip</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#roundingBox">roundingBox</a> : Number<div class="summaryTableDescription">[static]
+   Getter for the corner radius of the tooltip.</div>
+</td><td class="summaryTableOwnerCol">ToolTip</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#tooltipClip">tooltipClip</a> : Sprite<div class="summaryTableDescription">[static][read-only]
+   Getter for the the tooltip Sprite object for access outside this class.</div>
+</td><td class="summaryTableOwnerCol">ToolTip</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#tooltipLabel">tooltipLabel</a> : String<div class="summaryTableDescription">[static]
+   Returns the text that was assigned to the tooltip.</div>
+</td><td class="summaryTableOwnerCol">ToolTip</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#tooltipWidth">tooltipWidth</a> : Number<div class="summaryTableDescription">[static]
+   Getter that returns the tooltip's width if set.</div>
+</td><td class="summaryTableOwnerCol">ToolTip</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol"><a class="signatureLink" href="#transparency">transparency</a> : Array<div class="summaryTableDescription">[static]
+   Getter for the transparency.</div>
+</td><td class="summaryTableOwnerCol">ToolTip</td>
+</tr>
+</table>
+</div>
+<a name="methodSummary"></a>
+<div class="summarySection">
+<div class="summaryTableTitle">Public Methods</div>
+<table id="summaryTableMethod" class="summaryTable " cellpadding="3" cellspacing="0">
+<tr>
+<th>&nbsp;</th><th colspan="2">Method</th><th class="summaryTableOwnerCol">Defined&nbsp;by</th>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#ToolTip()">ToolTip</a>()</div>
+<div class="summaryTableDescription">
+   Class constructor.</div>
+</td><td class="summaryTableOwnerCol">ToolTip</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#addToolTip()">addToolTip</a>(e:TimerEvent):void</div>
+<div class="summaryTableDescription">[static]</div>
+</td><td class="summaryTableOwnerCol">ToolTip</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#hide()">hide</a>(e:Event = null):void</div>
+<div class="summaryTableDescription">[static]
+   the hide function hides te tooltip by removing it from stage.</div>
+</td><td class="summaryTableOwnerCol">ToolTip</td>
+</tr>
+<tr class="">
+<td class="summaryTablePaddingCol">&nbsp;</td><td class="summaryTableInheritanceCol">&nbsp;</td><td class="summaryTableSignatureCol">
+<div class="summarySignature">
+<a class="signatureLink" href="#show()">show</a>(obj:Object):void</div>
+<div class="summaryTableDescription">[static]
+   The function show triggers the tooltip to display after registering the mouseout
+   and mousedown listeners for the object that the mouse is currently over.</div>
+</td><td class="summaryTableOwnerCol">ToolTip</td>
+</tr>
+</table>
+</div>
+<script type="text/javascript" language="javascript">
+<!--
+showHideInherited();
+--></script>
+<div class="MainContent">
+<a name="propertyDetail"></a>
+<div class="detailSectionHeader">Property detail</div>
+<a name="autoHideTime"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">autoHideTime</td><td class="detailHeaderType">property</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>autoHideTime:int</code>&nbsp;&nbsp;[read-write]<p>
+   Getter that returns the time in ms after the tooltip must hide. 
+      </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public static function get autoHideTime():int</code>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function set autoHideTime(value:int):void</code>
+<br>
+</div>
+<a name="colors"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">colors</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>colors:Array</code>&nbsp;&nbsp;[read-write]<p>
+   Getter for the colors that the tooltip is being filled with.
+      </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public static function get colors():Array</code>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function set colors(value:Array):void</code>
+<br>
+</div>
+<a name="delayTime"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">delayTime</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>delayTime:int</code>&nbsp;&nbsp;[read-write]<p>
+   Returns the delay time that represents the delay time of the tooltip in ms.
+   </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public static function get delayTime():int</code>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function set delayTime(value:int):void</code>
+<br>
+</div>
+<a name="fadeTime"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">fadeTime</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>fadeTime:Number</code>&nbsp;&nbsp;[read-write]<p>
+   Gets the fadeTime property, representing the time of the fade-in annimation.
+      </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public static function get fadeTime():Number</code>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function set fadeTime(value:Number):void</code>
+<br>
+</div>
+<a name="followMouse"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">followMouse</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>followMouse:Boolean</code>&nbsp;&nbsp;[read-write]<p>
+   Getter that tells us if the tooltip needs to follow the mouse.
+      </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public static function get followMouse():Boolean</code>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function set followMouse(value:Boolean):void</code>
+<br>
+</div>
+<a name="hideOnMouseMove"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">hideOnMouseMove</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>hideOnMouseMove:Boolean</code>&nbsp;&nbsp;[read-write]<p>
+   Getter hideOnMouseMove. 
+      </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public static function get hideOnMouseMove():Boolean</code>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function set hideOnMouseMove(value:Boolean):void</code>
+<br>
+</div>
+<a name="resetStyles"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">resetStyles</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>resetStyles:Boolean</code>&nbsp;&nbsp;[read-write]<p>
+   Getter for the resetStyles.
+      </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public static function get resetStyles():Boolean</code>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function set resetStyles(value:Boolean):void</code>
+<br>
+</div>
+<a name="roundingBox"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">roundingBox</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>roundingBox:Number</code>&nbsp;&nbsp;[read-write]<p>
+   Getter for the corner radius of the tooltip.
+      </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public static function get roundingBox():Number</code>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function set roundingBox(value:Number):void</code>
+<br>
+</div>
+<a name="tooltipClip"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">tooltipClip</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>tooltipClip:Sprite</code>&nbsp;&nbsp;[read-only]<p>
+   Getter for the the tooltip Sprite object for access outside this class.
+      </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public static function get tooltipClip():Sprite</code>
+<br>
+</div>
+<a name="tooltipLabel"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">tooltipLabel</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>tooltipLabel:String</code>&nbsp;&nbsp;[read-write]<p>
+   Returns the text that was assigned to the tooltip.
+      </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public static function get tooltipLabel():String</code>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function set tooltipLabel(value:String):void</code>
+<br>
+</div>
+<a name="tooltipWidth"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">tooltipWidth</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>tooltipWidth:Number</code>&nbsp;&nbsp;[read-write]<p>
+   Getter that returns the tooltip's width if set. 
+      </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public static function get tooltipWidth():Number</code>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function set tooltipWidth(value:Number):void</code>
+<br>
+</div>
+<a name="transparency"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">transparency</td><td class="detailHeaderType">property</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>transparency:Array</code>&nbsp;&nbsp;[read-write]<p>
+   Getter for the transparency.
+      </p><span class="label">Implementation</span>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public static function get transparency():Array</code>
+<br>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;public function set transparency(value:Array):void</code>
+<br>
+</div>
+<a name="constructorDetail"></a>
+<div class="detailSectionHeader">Constructor detail</div>
+<a name="ToolTip()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">ToolTip</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">constructor</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public function ToolTip()</code><p>
+   Class constructor.
+   </p></div>
+<a name="methodDetail"></a>
+<div class="detailSectionHeader">Method detail</div>
+<a name="addToolTip()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">addToolTip</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function addToolTip(e:TimerEvent):void</code><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">e</span>:TimerEvent</code></td>
+</tr>
+</table>
+</div>
+<a name="hide()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">hide</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function hide(e:Event = null):void</code><p>
+   the hide function hides te tooltip by removing it from stage.
+      </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">e</span>:Event</code> (default = <code>null</code>)<code></code> &mdash; the event that causes the tooltip to hide or null.
+   </td>
+</tr>
+</table>
+</div>
+<a name="show()"></a>
+<table cellspacing="0" cellpadding="0" class="detailHeader">
+<tr>
+<td class="detailHeaderName">show</td><td class="detailHeaderParens">()</td><td class="detailHeaderType">method</td><td class="detailHeaderRule">&nbsp;</td>
+</tr>
+</table>
+<div class="detailBody">
+<code>public static function show(obj:Object):void</code><p>
+   The function show triggers the tooltip to display after registering the mouseout
+   and mousedown listeners for the object that the mouse is currently over. 
+      </p><span class="label">Parameters</span>
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="20px"></td><td><code><span class="label">obj</span>:Object</code> &mdash;  The object that belongs to this tooltip.
+   </td>
+</tr>
+</table>
+</div>
+<br>
+<br>
+<hr>
+<br>
+<p></p>
+<center class="copyright"> 
+</center>
+</div>
+</body>
+</html>
+<!-- -->
